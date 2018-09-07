@@ -1,6 +1,6 @@
-ignition-sensors0 (0.1.0~pre1-1~bionic) bionic; urgency=medium
+ignition-sensors (0.1.0~pre1-1~bionic) bionic; urgency=medium
 
-  * ignition-sensors0 0.1.0~pre1-1 release
+  * ignition-sensors 0.1.0~pre1-1 release
 
  -- Nate Koenig <nate@osrfoundation.org>  Fri, 07 Sep 2018 12:33:27 -0700
 
