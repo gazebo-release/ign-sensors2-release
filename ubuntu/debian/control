@@ -14,7 +14,7 @@ Build-Depends: cmake,
                libignition-rendering-dev,
                libignition-transport6-dev,
                libignition-tools-dev,
-               libsdformat6-dev
+               libsdformat8-dev
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-sensors-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-sensors-release
 Homepage: http://ignitionrobotics.org/
@@ -39,7 +39,7 @@ Depends: libignition-cmake2-dev,
          libignition-rendering-dev,
          libignition-transport6-dev,
          libignition-tools-dev,
-         libsdformat6-dev,
+         libsdformat8-dev,
          libignition-sensors (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
