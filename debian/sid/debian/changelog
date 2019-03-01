@@ -1,3 +1,9 @@
+ignition-sensors (1.0.0-1~sid) sid; urgency=medium
+
+  * ignition-sensors 1.0.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 01 Mar 2019 14:15:22 +0100
+
 ignition-sensors (0.1.0~pre2-1~sid) sid; urgency=medium
 
   * ignition-sensors 0.1.0~pre2-1 release
