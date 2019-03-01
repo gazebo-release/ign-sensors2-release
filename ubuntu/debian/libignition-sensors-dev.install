@@ -1,4 +1,1 @@
-usr/include/*
-usr/lib/*/*.so
-usr/lib/*/pkgconfig/*.pc
-usr/lib/*/cmake/ignition-sensors*/*
+usr/lib/*/cmake/ignition-sensors[0-99]-all/ignition-sensors[0-99]-all*
