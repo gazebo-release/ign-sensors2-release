@@ -1,4 +1,4 @@
-Source: ignition-sensors
+Source: ignition-sensors2
 Standards-Version: 3.9.8
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -17,11 +17,11 @@ Build-Depends: cmake,
                libignition-transport6-core-dev,
                libignition-tools-dev,
                libsdformat8-dev
-Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-sensors-release
-Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-sensors-release
+Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-sensors2-release
+Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-sensors2-release
 Homepage: http://ignitionrobotics.org/
 
-Package: libignition-sensors-core-dev
+Package: libignition-sensors2-core-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
@@ -34,24 +34,24 @@ Depends: libignition-cmake2-dev,
          libignition-transport6-core-dev,
          libignition-tools-dev,
          libsdformat8-dev,
-         libignition-sensors (= ${binary:Version}),
+         libignition-sensors2 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Development files
-  Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Ignition sensors2 classes and functions for robot apps - Development files
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
 
-Package: libignition-sensors
+Package: libignition-sensors2
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Shared library
-  Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Ignition sensors2 classes and functions for robot apps - Shared library
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
 
-Package: libignition-sensors-camera-dev
+Package: libignition-sensors2-camera-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
@@ -59,30 +59,30 @@ Depends: libignition-cmake2-dev,
          libignition-math6-dev,
          libignition-msgs3-dev,
          libignition-transport6-core-dev,
-         libignition-sensors-core-dev,
+         libignition-sensors2-core-dev,
          libsdformat8-dev,
-         libignition-sensors-camera (= ${binary:Version}),
+         libignition-sensors2-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files Camera
-  Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Ignition sensors2 classes and functions for robot apps - Dev files Camera
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   Development files for Camera sensor
  
-Package: libignition-sensors-camera
+Package: libignition-sensors2-camera
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib Camera
-  Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Ignition sensors2 classes and functions for robot apps - Lib Camera
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   Shared library for Camera sensor
 
-Package: libignition-sensors-depth-camera-dev
+Package: libignition-sensors2-depth-camera-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
@@ -90,30 +90,30 @@ Depends: libignition-cmake2-dev,
          libignition-math6-dev,
          libignition-msgs3-dev,
          libignition-transport6-core-dev,
-         libignition-sensors-core-dev,
-         libignition-sensors-camera-dev,
+         libignition-sensors2-core-dev,
+         libignition-sensors2-camera-dev,
          libsdformat8-dev,
-         libignition-sensors-depth-camera (= ${binary:Version}),
+         libignition-sensors2-depth-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files depth-camera
-  Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Ignition sensors2 classes and functions for robot apps - Dev files depth-camera
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   Development files for depth-camera sensor
  
-Package: libignition-sensors-depth-camera
+Package: libignition-sensors2-depth-camera
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib depth-camera
-  Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Ignition sensors2 classes and functions for robot apps - Lib depth-camera
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
   . Shared library for depth-camera sensor
 
-Package: libignition-sensors-lidar-dev
+Package: libignition-sensors2-lidar-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
@@ -121,30 +121,30 @@ Depends: libignition-cmake2-dev,
          libignition-math6-dev,
          libignition-msgs3-dev,
          libignition-transport6-core-dev,
-         libignition-sensors-core-dev,
+         libignition-sensors2-core-dev,
          libsdformat8-dev,
-         libignition-sensors-lidar (= ${binary:Version}),
+         libignition-sensors2-lidar (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files lidar
-  Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Ignition sensors2 classes and functions for robot apps - Dev files lidar
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   Development files for lidar sensor
  
-Package: libignition-sensors-lidar
+Package: libignition-sensors2-lidar
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib lidar
-  Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Ignition sensors2 classes and functions for robot apps - Lib lidar
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   Shared library for lidar sensor
 
-Package: libignition-sensors-gpu-lidar-dev
+Package: libignition-sensors2-gpu-lidar-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
@@ -152,31 +152,31 @@ Depends: libignition-cmake2-dev,
          libignition-math6-dev,
          libignition-msgs3-dev,
          libignition-transport6-core-dev,
-         libignition-sensors-core-dev,
-         libignition-sensors-lidar-dev,
+         libignition-sensors2-core-dev,
+         libignition-sensors2-lidar-dev,
          libsdformat8-dev,
-         libignition-sensors-gpu-lidar (= ${binary:Version}),
+         libignition-sensors2-gpu-lidar (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files gpu-lidar
-  Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Ignition sensors2 classes and functions for robot apps - Dev files gpu-lidar
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   Development files for gpu-lidar sensor
  
-Package: libignition-sensors-gpu-lidar
+Package: libignition-sensors2-gpu-lidar
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib gpu-lidar
-  Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Ignition sensors2 classes and functions for robot apps - Lib gpu-lidar
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   Shared library for gpu-lidar sensor
 
-Package: libignition-sensors-logical-camera-dev
+Package: libignition-sensors2-logical-camera-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
@@ -184,42 +184,42 @@ Depends: libignition-cmake2-dev,
          libignition-math6-dev,
          libignition-msgs3-dev,
          libignition-transport6-core-dev,
-         libignition-sensors-core-dev,
+         libignition-sensors2-core-dev,
          libsdformat8-dev,
-         libignition-sensors-logical-camera (= ${binary:Version}),
+         libignition-sensors2-logical-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files logical-camera
-  Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Ignition sensors2 classes and functions for robot apps - Dev files logical-camera
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   Development files for logical-camera sensor
  
-Package: libignition-sensors-logical-camera
+Package: libignition-sensors2-logical-camera
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib logical-camera
-  Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Ignition sensors2 classes and functions for robot apps - Lib logical-camera
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   Shared library for logical-camera sensor
 
-Package: libignition-sensors-dev
+Package: libignition-sensors2-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-sensors-core-dev,
-         libignition-sensors-camera-dev,
-         libignition-sensors-depth-camera-dev,
-         libignition-sensors-lidar-dev,
-         libignition-sensors-gpu-lidar-dev,
-         libignition-sensors-logical-camera-dev,
+Depends: libignition-sensors2-core-dev,
+         libignition-sensors2-camera-dev,
+         libignition-sensors2-depth-camera-dev,
+         libignition-sensors2-lidar-dev,
+         libignition-sensors2-gpu-lidar-dev,
+         libignition-sensors2-logical-camera-dev,
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Metapackage
-  Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Ignition sensors2 classes and functions for robot apps - Metapackage
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   Metapackage for all the -dev files

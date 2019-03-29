@@ -18,11 +18,11 @@ override_dh_auto_configure:
 override_dh_install:
 	dh_install --
 	# need to remove files present in components
-	$(RM) debian/libignition-sensors-core-dev/usr/include/ignition/sensors*/ignition/sensors/Camera*.hh
-	$(RM) debian/libignition-sensors-core-dev/usr/include/ignition/sensors*/ignition/sensors/DepthCamera*.hh
-	$(RM) debian/libignition-sensors-core-dev/usr/include/ignition/sensors*/ignition/sensors/GpuLidarSensor*.hh
-	$(RM) debian/libignition-sensors-core-dev/usr/include/ignition/sensors*/ignition/sensors/Lidar*.hh
-	$(RM) debian/libignition-sensors-core-dev/usr/include/ignition/sensors*/ignition/sensors/LogicalCamera*.hh
+	$(RM) debian/libignition-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/Camera*.hh
+	$(RM) debian/libignition-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/DepthCamera*.hh
+	$(RM) debian/libignition-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/GpuLidarSensor*.hh
+	$(RM) debian/libignition-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/Lidar*.hh
+	$(RM) debian/libignition-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/LogicalCamera*.hh
 	dh_missing --list-missing
 
 # test cannot run in parallel
