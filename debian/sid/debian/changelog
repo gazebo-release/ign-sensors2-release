@@ -1,17 +1,6 @@
-ignition-sensors (1.0.0-1~sid) sid; urgency=medium
+ignition-sensors (2.0.0-1~sid) sid; urgency=medium
 
   * ignition-sensors 1.0.0-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 01 Mar 2019 14:15:22 +0100
 
-ignition-sensors (0.1.0~pre2-1~sid) sid; urgency=medium
-
-  * ignition-sensors 0.1.0~pre2-1 release
-
- -- Nate Koenig <nate@osrfoundation.org>  Tue, 19 Feb 2019 14:20:32 -0800
-
-ignition-sensors (0.1.0~pre1-1~sid) sid; urgency=medium
-
-  * ignition-sensors 0.1.0~pre1-1 release
-
- -- Nate Koenig <nate@osrfoundation.org>  Tue, 09 Sep 2018 09:31:00 -0700
