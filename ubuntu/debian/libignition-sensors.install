@@ -1,3 +1,2 @@
 usr/lib/*/libignition-sensors[0-99].so.*
-usr/lib/*/libignition-sensors[0-99]-rendering.so.*
 usr/share/ignition/ignition-sensors*/*

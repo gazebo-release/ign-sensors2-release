@@ -66,7 +66,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   designed to rapidly develop robot applications.
   .
   Development files for altimeter sensor
- 
+
 Package: libignition-sensors2-altimeter
 Architecture: any
 Section: libs
@@ -98,7 +98,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   designed to rapidly develop robot applications.
   .
   Development files for Camera sensor
- 
+
 Package: libignition-sensors2-camera
 Architecture: any
 Section: libs
@@ -130,7 +130,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   designed to rapidly develop robot applications.
   .
   Development files for depth-camera sensor
- 
+
 Package: libignition-sensors2-depth-camera
 Architecture: any
 Section: libs
@@ -158,7 +158,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   designed to rapidly develop robot applications.
   .
   Development files for imu sensor
- 
+
 Package: libignition-sensors2-imu
 Architecture: any
 Section: libs
@@ -190,7 +190,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   designed to rapidly develop robot applications.
   .
   Development files for lidar sensor
- 
+
 Package: libignition-sensors2-lidar
 Architecture: any
 Section: libs
@@ -222,7 +222,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   designed to rapidly develop robot applications.
   .
   Development files for gpu-lidar sensor
- 
+
 Package: libignition-sensors2-gpu-lidar
 Architecture: any
 Section: libs
@@ -253,7 +253,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   designed to rapidly develop robot applications.
   .
   Development files for logical-camera sensor
- 
+
 Package: libignition-sensors2-logical-camera
 Architecture: any
 Section: libs
@@ -282,7 +282,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   designed to rapidly develop robot applications.
   .
   Development files for magnetometer sensor
- 
+
 Package: libignition-sensors2-magnetometer
 Architecture: any
 Section: libs
@@ -295,6 +295,34 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib magnet
   .
   Shared library for magnetometer sensor
 
+Package: libignition-sensors2-rendering-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-cmake2-dev,
+         libignition-common3-events-dev,
+         libignition-math6-dev,
+         libignition-sensors2-core-dev,
+         libsdformat8-dev,
+         libignition-sensors2-rendering (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition sensors2 classes and functions for robot apps - Dev files rendering
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Development files for rendering sensor
+
+Package: libignition-sensors2-rendering
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Ignition sensors2 classes and functions for robot apps - Lib rendering
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Shared library for rendering sensor
 
 Package: libignition-sensors2-dev
 Architecture: any
@@ -308,6 +336,7 @@ Depends: libignition-sensors2-core-dev,
          libignition-sensors2-gpu-lidar-dev,
          libignition-sensors2-logical-camera-dev,
          libignition-sensors2-magnetometer-dev,
+         libignition-sensors2-rendering-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition sensors2 classes and functions for robot apps - Metapackage
