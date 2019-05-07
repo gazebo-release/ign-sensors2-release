@@ -51,6 +51,34 @@ Description: Ignition sensors2 classes and functions for robot apps - Shared lib
   Ignition sensors2 is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
 
+Package: libignition-sensors2-air-pressure-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-cmake2-dev,
+         libignition-common3-events-dev,
+         libignition-sensors2-core-dev,
+         libsdformat8-dev,
+         libignition-sensors2-air-pressure (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition sensors2 classes and functions for robot apps - Dev files air-pressure
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Development files for air-pressure sensor
+
+Package: libignition-sensors2-air-pressure
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Ignition sensors2 classes and functions for robot apps - Lib air-pressure
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Shared library for air-pressure sensor
+
 Package: libignition-sensors2-altimeter-dev
 Architecture: any
 Section: libdevel
@@ -328,6 +356,7 @@ Package: libignition-sensors2-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-sensors2-core-dev,
+         libignition-sensors2-air-pressure-dev,
          libignition-sensors2-altimeter-dev,
          libignition-sensors2-camera-dev,
          libignition-sensors2-depth-camera-dev,
