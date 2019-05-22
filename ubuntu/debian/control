@@ -324,6 +324,35 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib render
   .
   Shared library for rendering sensor
 
+Package: libignition-sensors2-rgbd-camera-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-cmake2-dev,
+         libignition-msgs4-dev,
+         libignition-sensors2-core-dev,
+         libsdformat8-dev,
+         libignition-sensors2-rgbd-camera (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Sensors classes and functions for robot apps - Dev files rgbd-camera
+  Ignition Sensors is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Development files for rgbd-camera sensor
+
+Package: libignition-sensors2-rgbd-camera
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Sensors classes and functions for robot apps - Lib rgbd-camera
+  Ignition Sensors is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Shared library for rgbd-camera sensor
+
+
 Package: libignition-sensors2-dev
 Architecture: any
 Section: libdevel
@@ -337,6 +366,7 @@ Depends: libignition-sensors2-core-dev,
          libignition-sensors2-logical-camera-dev,
          libignition-sensors2-magnetometer-dev,
          libignition-sensors2-rendering-dev,
+         libignition-sensors2-rgbd-camera-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition sensors2 classes and functions for robot apps - Metapackage
