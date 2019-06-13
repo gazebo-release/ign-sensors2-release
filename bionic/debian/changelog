@@ -4,6 +4,18 @@ ignition-sensors2 (2.1.0~pre2-1~bionic) bionic; urgency=medium
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 13 Jun 2019 21:22:25 +0200
 
+ignition-sensors2 (2.1.0~pre1-3~bionic) bionic; urgency=medium
+
+  * ignition-sensors2 2.1.0~pre1-3 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 22 May 2019 18:57:16 +0200
+
+ignition-sensors2 (2.1.0~pre1-2~bionic) bionic; urgency=medium
+
+  * ignition-sensors2 2.1.0~pre1-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 22 May 2019 18:49:36 +0200
+
 ignition-sensors2 (2.1.0~pre1-1~bionic) bionic; urgency=medium
 
   * ignition-sensors2 2.1.0~pre1-1 release
