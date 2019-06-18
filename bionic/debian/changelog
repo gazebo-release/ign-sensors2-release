@@ -1,6 +1,6 @@
-ignition-sensors2 (2.1.0-2~bionic) bionic; urgency=medium
+ignition-sensors2 (2.1.0-1~bionic) bionic; urgency=medium
 
-  * ignition-sensors2 2.1.0-2 release
+  * ignition-sensors2 2.1.0-1 release
 
  -- Nate Koenig <nate@osrfoundation.org>  Tue, 18 Jun 2019 14:57:41 -0700
 
