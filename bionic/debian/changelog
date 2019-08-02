@@ -1,3 +1,9 @@
+ignition-sensors2 (2.5.0-1~bionic) bionic; urgency=medium
+
+  * ignition-sensors2 2.5.0-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Fri, 02 Aug 2019 12:16:27 -0700
+
 ignition-sensors2 (2.5.0~pre1-1~bionic) bionic; urgency=medium
 
   * ignition-sensors2 2.5.0~pre1-1 release
